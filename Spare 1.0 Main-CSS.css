@@ -1,14 +1,28 @@
 /*
-			Version 1.0
+			Version 1.1
 			Stylesheet by Imjustadude90
-			Last modified: 19 June 2015
+			Modified For Linux Distro Community By Setkeh
+			Last modified: 03 September 2015
 			
 -------------------------------------------------------------------------- */
 
 /** Main Body **/
 
 body {
-    background-color: #f9f9f9;
+    background-color: #333333;
+}
+body a {
+    color: #ededed;
+}
+#siteTable a.title {
+    color: #ddffff;
+}
+#siteTable a.title:visited {
+    color: #369;
+}
+body #siteTable {
+	background-color: #333333;
+	color: #ededed;
 }
 .res-nightmode body {
   background-color: #191919!important;
@@ -43,7 +57,7 @@ body {
 #RESShortcutsViewport {
     margin-right: 65px!Important;
 }
-#RESShortcuts{color:#fff;}
+#RESShortcuts{color:#333333;}
 #sr-header-area .drop-choices {
     border: 1px solid #adadad;
     background-color: #f3f3f3;
@@ -133,8 +147,8 @@ body {
 #header {
     border-bottom: 1px solid #e7e8ea;
     position: relative;
-    background-color: #53A9EE;
-    height: 110px;
+    background-color: #232323;
+    height: 210px;
 	-webkit-background-size: cover!Important;
 	-moz-background-size: cover!Important;
 	-o-background-size: cover!Important;
@@ -147,18 +161,13 @@ body {
 }
 #header-img.default-header,
 #header-img {
-    margin-left: 5px;
+	position:absolute!important;
+	top:-165px;
+	left:475px;
+    height: 150px;
+    width: 1000px;
+    margin-left: 20px;
 }
-/*Header Image - Theme Snoo - Remove if necessary*/
-#header-img.default-header,
-#header-img {
-    background: url(%%spritesheet%%) -62px -2px no-repeat;
-    opacity: 1.0;
-    height: 46px;
-    width: 0;
-	padding-left:58px;
-}
-/*Header Image - Theme Snoo - Remove if necessary*/
 
 #header-img:hover {
     opacity: 0.9;
@@ -359,7 +368,7 @@ body {
     margin: 0px 3px;
 }
 .tabmenu li a {
-	background-color: #F9F9F9;
+	background-color: #333333;
 	color: #b0b0b0;
 	display: inline-block;
 	height: 20px;
@@ -384,7 +393,7 @@ body {
 .tabmenu li a:hover {
     height: 25px;
     color: #1B86DB;
-    background-color: #F9F9F9;
+    background-color: #333333;
 }
 .res-nightmode .tabmenu li a:hover{
 	color:#fff!Important;
@@ -394,9 +403,9 @@ body {
 	padding: 0px 10px;
 	height: 25px;
 	line-height: 25px;
-	background-color: #F9F9F9;
+	background-color: #333333;
 	color: #1B86DB;
-	border-bottom: 1px solid #F9F9F9!Important;
+	border-bottom: 1px solid #333333!Important;
 	margin-bottom: -1px;
 	border-color: #e7e8ea;	
 }
@@ -409,7 +418,7 @@ body {
 
 .side {
     float: right;
-    background-color: transparent;
+    background-color: #333333;
     margin: 10px 10px 10px 15px;
     border: 0px solid #e7e8ea;
 }
@@ -423,7 +432,24 @@ body {
 }
 
 .res-nightmode .titlebox form.toggle, .res-nightmode .leavemoderator{
-	background-color: #222;
+	background-color: #333333;
+}
+.leavemoderator {
+	background-color: #333333;
+}
+form.toggle.flairtoggle {
+    background: #333333;
+}
+form.toggle.sr_style_toggle {
+	background-color: #333333;
+}
+
+.side ul.flat-vert li a {
+	background-color: #333333;
+}
+
+form.search {
+	background-color: #333333;
 }
 
 /*Margin Fixes*/
@@ -488,7 +514,7 @@ body {
 .md code, .md pre{
 	border: 1px solid #E7E8EA;
 	border-left: 5px solid #E7E8EA;
-	background: #F9F9F9;
+	background: #333333;
 	
 }
 .res-nightmode .md code, .res-nightmode .md pre {
@@ -500,7 +526,7 @@ body {
 
 .commentarea .md blockquote, .link .usertext-body .md blockquote{
 	padding: 5px 8px;
-	background: #f9f9f9;
+	background: #333333;
 	border-left: 5px solid #B6D9F4;
 	margin: 10px 15px;
 	font-weight: 300;
@@ -514,7 +540,8 @@ body {
 
 .titlebox {
     font-size: larger;
-    background-color: #fff;
+    color: #ededed;
+    background-color: #333333;
     border: 1px solid #e7e8ea;
 }
 .res-nightmode .titlebox{
@@ -523,7 +550,7 @@ body {
 }
 .sidecontentbox.collapsible,
 .sidecontentbox {
-    background-color: #fff;
+    background-color: #333333;
     border: 1px solid #e7e8ea;
 }
 .res-nightmode .sidecontentbox.collapsible, .res-nightmode .sidecontentbox{
@@ -559,7 +586,7 @@ body {
 }
 .sidecontentbox a.helplink{
 	float: right;
-	color: #fff;
+	color: #333333;
 	font-size: 0;
 	position: absolute;
 	background-color: #53A9EE;
@@ -878,7 +905,7 @@ label+#moresearchinfo {
 {
     color: #444;
 	margin: 0px 10px 10px 10px;
-	border-bottom: 3px solid #F9F9F9;
+	border-bottom: 3px solid #333333;
 }
 .res-nightmode .side .spacer .md blockquote h1,
 .res-nightmode .side .spacer .md blockquote h2,
@@ -1076,7 +1103,7 @@ body > div.content {
     overflow: hidden;
     margin-bottom: 5px;
     border: 1px solid #e7e8ea;
-    background-color: #fff;
+    background-color: #333333;
     padding: 5px 10px;
 }
 .res-nightmode .link{
@@ -1536,7 +1563,7 @@ background-repeat: no-repeat
 .submit-page .roundfield input[type=hidden]
  {
 	border: 1px solid #E7E8EA;
-	background-color: #F9F9F9;
+	background-color: #333333;
 	width: 460px;
 	transition: width .25s
 }
@@ -1568,7 +1595,7 @@ background-repeat: no-repeat
 	background-color: #202020!Important;
 }
 .submit-page #reddit-field{
-	background-color:#F9F9F9;
+	background-color:#333333;
 	border: 1px solid #E7E8EA;
 	border-radius:0;
 }
@@ -1640,7 +1667,7 @@ background-repeat: no-repeat
 /*Comment Page*/
 
 .comment-page .link .usertext-body .md {
-    background-color: #F9F9F9;
+    background-color: #333333;
     border: 1px solid #e7e8ea;
     border-radius: 0px;
 }
@@ -2025,9 +2052,9 @@ div.titlebox>div.bottom>span.flair{display:none;}
 .wiki-page .pageactions .wikiaction-current:hover{background-color:#3093E2}
 .wiki-page .wiki-page-content .wiki>.toc>ul{
 	border: 1px solid #E7E8EA;
-	background-color: #F9F9F9;
+	background-color: #333333;
 	margin-right: -11px;
-	border-right: 1px solid #F9F9F9;
+	border-right: 1px solid #333333;
 	border-radius: 10px 0px 0px 10px;
 }
 .res-nightmode .wiki-page .wiki-page-content .wiki>.toc>ul{
@@ -2081,4 +2108,3 @@ body.with-listing-chooser.listing-chooser-collapsed .footer-parent,body.with-lis
 
 /*-------------------------------------------------------------------------------------------------------
 ------------------Add your Custom CSS Below Here--------*/
-

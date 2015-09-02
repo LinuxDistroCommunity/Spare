@@ -4,6 +4,8 @@ Spare
 
 Spare is a reddit theme that anyone can use for their subreddit or use as their reddit theme. See [/r/Spare](http://www.reddit.com/r/Spare/) on reddit for a preview.
 
+This theme has be heavily Modified for use by /r/linuxdistrocommunity
+
 How to install the theme. 
 ===============
 
